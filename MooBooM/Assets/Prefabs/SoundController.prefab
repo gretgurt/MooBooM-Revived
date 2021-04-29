@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6163584926025476203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6163584926025476202}
+  - component: {fileID: 6163584926025476201}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6163584926025476202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163584926025476203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6163584926025476201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163584926025476203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1645bcd5b475a914992a85a78ac2993c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundClips:
+  - name: HurtCow
+    audioClip: {fileID: 8300000, guid: 69b0dc8816ff0f14ab9e11dbb25599ae, type: 3}
+    loop: 0
+    pitch: 0.55
+    volume: 1.51
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: ExplosionBuildup
+    audioClip: {fileID: 8300000, guid: 02c0a3a1280b58b4fbf7db989f237c4d, type: 3}
+    loop: 0
+    pitch: 0.67
+    volume: 2.02
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: Music
+    audioClip: {fileID: 8300000, guid: e94201206b3c52043b88ada46e505b51, type: 3}
+    loop: 1
+    pitch: 0.88
+    volume: 1.51
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -4675264867682420253, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: ExplosionFx
+    audioClip: {fileID: 8300000, guid: f2759df12e3193d428a04660fee750b6, type: 3}
+    loop: 0
+    pitch: 0.76
+    volume: 0.68
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: PickupBomb
+    audioClip: {fileID: 8300000, guid: 205d5b5f66e890b47a398816540ff742, type: 3}
+    loop: 0
+    pitch: 0.88
+    volume: 1.51
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: BombThrow
+    audioClip: {fileID: 8300000, guid: 60c877068d6fb3048941a4a6c13b5e84, type: 3}
+    loop: 0
+    pitch: 0.88
+    volume: 4.04
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: Drink
+    audioClip: {fileID: 8300000, guid: 283c78f79b80d0d4c9912295db7fb1d2, type: 3}
+    loop: 0
+    pitch: 1
+    volume: 2.88
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: FenceSwoosh
+    audioClip: {fileID: 8300000, guid: 3e85c7506cc3c1e4d91f0f696f6418ac, type: 3}
+    loop: 1
+    pitch: 1
+    volume: 2.88
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: hittingGrass
+    audioClip: {fileID: 8300000, guid: 8ba743d9c979f9a49a0c056db0dc31ed, type: 3}
+    loop: 0
+    pitch: 1
+    volume: 5
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: EnglishFarmer
+    audioClip: {fileID: 8300000, guid: 7b7734ffca83a694c931694687305e9e, type: 3}
+    loop: 0
+    pitch: 1
+    volume: 1.84
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  - name: SwedishFarmer
+    audioClip: {fileID: 8300000, guid: 75c9277f822da184db8a07e64e766e97, type: 3}
+    loop: 0
+    pitch: 1
+    volume: 1.84
+    audioSource: {fileID: 0}
+    audioMixerGroup: {fileID: -6629163351292546635, guid: 30dedffa6741cd846b5a8a9eb9eb4945, type: 2}
+  isNotLevel: 1
